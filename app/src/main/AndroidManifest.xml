@@ -9,6 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Xchange">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/shape" />
+
+        <activity
+            android:name=".UploadProduct"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
